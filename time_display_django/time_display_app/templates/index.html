@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display time</title>
+        {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="conteiner">
+        <h3 class="header .dflex" >The current time and date</h3>
+        <h1 class="time .dflex">{{ time }}</h1>
+</div>
+</body>
+</html>

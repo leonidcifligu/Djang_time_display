@@ -1,0 +1,28 @@
+.dflex{
+    display: flex;
+    justify-items: center;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 310px;
+    text-align: center;
+
+}
+
+.header 
+{
+display: inline-flex;
+align-items: center;
+border: 1px solid black;
+padding: 20px;
+text-align: center;
+}
+
+.time{
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+}
